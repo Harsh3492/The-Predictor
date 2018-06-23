@@ -1,0 +1,81 @@
+body{
+    font-family: 'Cabin', sans-serif;
+	background:url("bg.jpeg") no-repeat center center fixed;
+	background-size:cover;
+
+}
+.calculatorImg{
+	height:80px;
+	width:85px;
+}
+@media(max-width:576px)
+{
+ .calculatorImg{
+	height:50px;
+	width:55px;
+}	
+}
+.rowHeight{
+	height:500px;
+}
+@media(max-width:576px)
+{
+.rowHeight{
+	height:400px;
+}	
+}
+.btntxt{
+	font-size:42px;
+}
+@media(max-width:576px)
+{
+	.btntxt{
+	font-size:24px;
+}
+}
+.inputBox
+{
+	color:white;
+	background: transparent;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-radius:0px;
+	text-align:center;
+	font-size:25px;
+	
+}
+.inputBox:hover{
+	color:white;
+	background: transparent;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-radius:0px;
+}
+.inputBox:focus{
+	color:white;
+	outline: none;
+	box-shadow: none;
+	background: transparent;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-radius:0px
+}
+.submitBtn{
+	heigth:60px;
+	width:60px;
+	font-size:25px;
+	margin-top:25px;
+}
+.modalPosition{
+	margin-top:10%;
+}
+@media(max-width:576px)
+{
+.modalPosition{
+	margin-top:25%;
+}
+}
+

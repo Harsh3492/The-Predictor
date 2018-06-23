@@ -1,0 +1,19 @@
+body{
+    font-family: 'Cabin', sans-serif;
+	background:url("bg.jpeg") no-repeat center center fixed;
+	background-size:cover;
+}
+.rowHeight{
+   height:500px;
+}
+
+@media(min-height:800px){
+	.rowHeight{
+   height:1200px;}
+}
+.btn{
+	font-size:50px;
+}
+.btntxt{
+	font-size:20px;
+}
